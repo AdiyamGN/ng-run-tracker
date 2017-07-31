@@ -6,7 +6,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
   "name" : "Main Bike Trails",
   "date" : new Date('06/01/2017'),
   "distance" : 16.2,
-  "comments" : "Nice day, cool temps",
+  "notes" : "Nice day, cool temps",
   "gpxData": '../../assets/gpx/1.gpx'
 },
 {
@@ -15,7 +15,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
    "date": new Date('06/04/2017'),
    "gpxData": '../../assets/gpx/1.gpx',
    "distance": 1.2,
-   "comments": 'Cool and windy.'
+   "notes": 'Cool and windy.'
  },
  {
    "id": 3,
@@ -23,7 +23,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
    "date": new Date('06/05/2017'),
    "gpxData": '../../assets/gpx/2.gpx',
    "distance": 3.2,
-   "comments": 'Evening run.'
+   "notes": 'Evening run.'
  },
  {
    "id": 4,
@@ -31,6 +31,6 @@ export const SAVED_ACTIVITIES: IActivity[] = [
    "date": new Date('06/08/2017'),
    "gpxData": '../../assets/gpx/4.gpx',
    "distance": 8.4,
-   "comments": 'Cool and windy by the lake.'
+   "notes": 'Cool and windy by the lake.'
  }
 ]
