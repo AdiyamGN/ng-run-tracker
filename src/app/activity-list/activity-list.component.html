@@ -1,3 +1,33 @@
-Total Distance {{ totalDistance }}
-Total Activity {{ totalActivities }}
-First Date {{ firstDate | date: 'longDate' }}
+<div class="container list-container">
+  <div class="row">
+    <div class="col-md-12 summury">
+      <p class="total">Total Distance {{ totalDistance }}</p>
+      <p class="total">Total Activity {{ totalActivities }}</p>
+      <p class="total">First Date {{ firstDate | date: 'longDate' }}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th class="col-1">Name</th>
+            <th class="col-2">Date</th>
+            <th class="col-3">Distance</th>
+            <th class="col-4">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let activity of activities">
+            <td>{{ activity.name}}</td>
+            <td>{{ activity.date | date: "longDate" }}</td>
+            <td>{{ activity.distance}}</td>
+            <td>{{ activity.notes }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  
+</div>

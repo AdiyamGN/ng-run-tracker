@@ -1,0 +1,12 @@
+.list-container {
+  margin-top: 80px;
+}
+
+.summury {
+  font-size: 1.2em;
+}
+
+.total {
+  display: inline;
+  margin: 15px;
+}
