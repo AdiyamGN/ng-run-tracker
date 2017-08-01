@@ -1,4 +1,4 @@
-import { Component, OnInit, Pipe } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { IActivity } from '../shared/activity.model';
 import { ActivityService } from '../services/activity.service';
