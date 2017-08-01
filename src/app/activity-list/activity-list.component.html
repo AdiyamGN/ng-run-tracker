@@ -19,7 +19,11 @@
         </thead>
         <tbody>
           <tr *ngFor="let activity of activities">
-            <td>{{ activity.name}}</td>
+            <td>
+              <a [routerLink] ="['/run', activity.id]">
+                {{ activity.name }}
+              </a>
+            </td>
             <td>{{ activity.date | date: "longDate" }}</td>
             <td>{{ activity.distance}}</td>
             <td>{{ activity.notes }}</td>
